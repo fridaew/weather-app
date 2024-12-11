@@ -1,5 +1,5 @@
 import React from 'react';
-import './weatherCard.css'
+import './WeatherCard.css'
 import { IoArrowForwardCircleOutline, IoLocationOutline } from "react-icons/io5";
 import HourlyForecast from './HourlyForecast';
 import { FaWind } from "react-icons/fa";
