@@ -83,8 +83,6 @@ const LocalWeather = ({ getWeatherIcon }) => {
       ) : (
         !error && <p>Laddar väderdata...</p>
       )}
-
-
     </div>
   );
 };

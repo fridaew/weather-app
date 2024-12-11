@@ -1,8 +1,7 @@
-import React, { useState} from 'react';
+import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { GoArrowLeft } from "react-icons/go";
 import {  IoLocationOutline  } from "react-icons/io5";
-import Modal from "./Modal"
 import './WeatherForecast.css'
 
 const WeatherForecast = ({getWeatherIcon}) => {
@@ -10,10 +9,7 @@ const WeatherForecast = ({getWeatherIcon}) => {
   const navigate = useNavigate();
   
   const { forecastData, weather, isNight } = location.state;
-  
-  const [showModal, setShowModal] = useState(false)
-
-  
+    
   return (
     <div className={`forecast ${isNight ? 'night' : 'day'}`}>
     <div className="weather-forecast">
@@ -42,8 +38,6 @@ const WeatherForecast = ({getWeatherIcon}) => {
           <p>Ingen prognosdata tillgänglig.</p>
         )}
       </div>
-      <button onClick={() => setShowModal(true)}>Klicka mig</button>
-      {showModal && <Modal onClose={() => setShowModal(false)}/>}
     </div>
     </div>
 
