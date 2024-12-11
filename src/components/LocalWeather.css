@@ -1,0 +1,31 @@
+.local-weather {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20%;
+    margin-top: 8rem;
+    color: #FFF;
+}
+
+.local-weather .weather-icon {
+    width: 120px;
+}
+
+.local-weather-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-row {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.text-row p{
+font-size: 38px;
+padding-top: 20px;
+}
+
+.temperature-message{
+    margin-top: 20px;
+}

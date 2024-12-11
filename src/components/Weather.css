@@ -1,0 +1,68 @@
+.weather.day {
+    background: linear-gradient(
+        to top,
+        rgba(157, 180, 220, 0.9),
+        rgba(55, 103, 248, 0.8) 
+    );
+    color: black;
+  }
+  
+  .weather.night {
+    background: linear-gradient(
+        to top,
+        rgba(66, 70, 78, 0.9),
+        rgba(17, 32, 77, 0.8) 
+    );
+  }
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+}
+
+/* .input-field{
+    background-color: transparent;
+    outline: none;
+    border-radius: 20px;
+    border-color: #FFFF;
+    color: #FFFF;
+    font-size: 18px;
+    margin: 20px 0 20px 20px;
+    padding: 2px;    
+} */
+.input-field{
+    background-color: transparent;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-color: #FFFF;
+    color: #FFFF;
+    font-size: 18px;
+    margin: 20px 0 20px 20px;    
+    width: 100%;
+    font-family: "inter";
+}
+
+.input-field::placeholder{
+    font-size: 14px;
+    color: #FFFF;
+    padding: 5px;
+}
+
+.submit-button{
+    border:none;
+    background-color: transparent;
+    margin: 20px 20px 20px 20px;
+    cursor: pointer;
+}
+
+.search-container{
+    display: flex;
+    justify-content:end;
+    margin: 15px 20px 20px 20px;
+}
+.search-button{
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+}

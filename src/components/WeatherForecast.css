@@ -1,0 +1,105 @@
+.weather-forecast{
+    color: #FFF;
+}
+
+.forecast.day {
+    background: linear-gradient(
+        to top,
+        rgba(117, 154, 218, 0.9),
+        rgba(55, 103, 248, 0.8) 
+    );
+    color: black;
+  }
+  
+  .forecast.night {
+    background: linear-gradient(
+        to top,
+        rgba(66, 70, 78, 0.9),
+        rgba(17, 32, 77, 0.8) 
+    );
+    color: white;
+  }
+
+.weather-forecast .top-section {
+    margin: 20px 10px 0 20px;
+}
+.weather-forecast .top-section p {
+ font-size: 25px;
+ margin-top: 20px;
+}
+.weather-forecast button{
+    color: #FFF;
+    background-color: transparent;
+    border: none;
+}
+
+.forecast-item.day {
+    background: linear-gradient(
+        to top right,
+        rgba(176, 197, 236, 0.856),
+        rgba(132, 155, 231, 0.349)
+        70%,
+        transparent 70% 
+    );
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 60px 20px 20px 20px;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .forecast-item.night {
+    background: linear-gradient(
+        to top right,
+        rgba(66, 70, 78, 0.534),
+        rgba(114, 147, 245, 0.493) 
+        70%,
+        transparent 70% 
+    );
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 60px 20px 20px 20px;
+    gap: 20px;
+    padding: 20px;
+  }
+
+
+.forecast-item img {
+    position: absolute;
+    width: 150px;
+    right: 0;
+    bottom: 50px;
+}
+
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    width: 100%;
+}
+.section-1 .temperature{
+    font-family: "Work Sans", sans-serif;
+    font-style:normal;
+    font-size: 52px;
+    font-weight: 200; 
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    width: 100%;
+    font-size: 14px;
+}
+
+.section-2 p{
+    white-space: nowrap;
+}
+
+

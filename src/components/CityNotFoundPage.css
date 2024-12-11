@@ -1,0 +1,44 @@
+.not-found-page{
+    display: flex;
+    background-color: #e6e6e6bd;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found-page img{
+    width: 350px;
+    height: 300px;
+}
+
+.not-found-page p {
+    margin: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+.not-found-page h1{
+    font-family: "Geist Mono", monospace;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.not-found-page button{
+    background: linear-gradient(
+        to top,
+        rgba(91, 138, 219, 0.9),
+        rgba(26, 79, 239, 0.8) 
+    );
+   border-radius: 20px;
+   width: 10rem;
+   border: none;
+   padding: 12px;
+   color: #FFF;
+
+}
+.not-found-page button:hover{
+    background: linear-gradient(
+        to top,
+        rgba(91, 138, 219, 0.9),
+        rgba(5, 63, 236, 0.8) 
+    );
+
+}
