@@ -5,7 +5,7 @@ import LocalWeather from './LocalWeather'
 import { CiSearch } from "react-icons/ci";
 import { useNavigate } from 'react-router-dom';
 import { DateTime } from 'luxon';
-import './weather.css';
+import './Weather.css';
 
 const Weather = ({getWeatherIcon}) => {
   const [city, setCity] = useState("");
